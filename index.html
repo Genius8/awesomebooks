@@ -11,7 +11,8 @@
 <body>
   <div class="titl">
     <h1>Awesome books</h1>
-    <p>You got this<br>
+    <p id="title"></p>
+     <p> You got this<br>
     Juan</p><button onclick="document.getElementById('demo').innerHTML = Date()"
          type="button">Remove</button>
     <hr>
@@ -32,5 +33,13 @@
     <button onclick="document.getElementById('demo').innerHTML = Date()"
          type="button">Add</button>
   </div>
+  <script>
+    const book = {
+    title : "Lorem ipsum"
+    author : "Tester"
+}
+
+document.getElementById("title").innerHTML = "Lorem Ipsum";
+  </script>
 </body>
 </html>
