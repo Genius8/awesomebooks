@@ -1,6 +1,11 @@
-const book {
-    title = "Lorem ipsum"
-    author = "Tester"
+function Book(title, author) {
+    this.title = title;
+    this.author = author;
 }
 
-document.getElementById("title").book.title;
+var example = new Book('Lorem Ipsum', 'Tester');
+var example2 = new Book('Second book', 'Testero Testyy');
+
+let books = [{}];
+
+books.push(example)

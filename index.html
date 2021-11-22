@@ -11,7 +11,8 @@
 <body>
   <div class="titl">
     <h1>Awesome books</h1>
-    <p id="title"></p>
+    <p id="books"></p>
+
      <p> You got this<br>
     Juan</p><button onclick="document.getElementById('demo').innerHTML = Date()"
          type="button">Remove</button>
@@ -33,13 +34,9 @@
     <button onclick="document.getElementById('demo').innerHTML = Date()"
          type="button">Add</button>
   </div>
+  <script src="./js/index.js"></script>
   <script>
-    const book = {
-    title : "Lorem ipsum"
-    author : "Tester"
-}
-
-document.getElementById("title").innerHTML = "Lorem Ipsum";
+document.getElementById('books').innerHTML = "Title:" + example.title + "\nAuthor:" + example.author;
   </script>
 </body>
 </html>
