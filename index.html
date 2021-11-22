@@ -12,9 +12,9 @@
   <div class="titl">
     <h1>Awesome books</h1>
     <p id="books"></p>
+    <p id="ids"></p>
 
-     <p> You got this<br>
-    Juan</p><button onclick="document.getElementById('demo').innerHTML = Date()"
+     <button onclick="document.getElementById('demo').innerHTML = Date()"
          type="button">Remove</button>
     <hr>
     <p>Sneak peek<br>
@@ -37,6 +37,7 @@
   <script src="./js/index.js"></script>
   <script>
 document.getElementById('books').innerHTML = "Title:" + example.title + "\nAuthor:" + example.author;
+document.getElementById('ids').innerHTML = bookID(example) + "\n" + bookID(example2);
   </script>
 </body>
 </html>
